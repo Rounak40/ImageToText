@@ -35,7 +35,7 @@ if __name__ == "__main__":
     filename = input("Please enter the file name: (Make sure its present in current directory)\n")
     image = load_image(filename)
     if image == False:
-        print("File not exist in current directory)!")
+        print("File not exist in current directory!")
     else:
         data = grab_text(image)
         save_text(filename, data)
